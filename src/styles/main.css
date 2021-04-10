@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body {
+    width: 1040px;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    color: #1565c0;
+}
+
+.input__items {
+    display: flex;
+    padding-bottom: 20px;
+}
+input {
+	font-size: 14px;
+	padding: 6px 10px 6px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 5px;
+    margin: 0 15px 0 0;
+}
+input:focus {outline: 0;}
+
+.input__btn {
+    background: #ffa726;
+    border: none;
+    color: white;
+}
+
+span {
+    padding: 6px 10px 6px 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.queue {
+    display: flex;
+}
+
+.queue__class {
+    background-color: #1565c0;
+    color: #fff;
+    width: 10%;
+}
